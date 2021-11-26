@@ -48,7 +48,7 @@ function runGame(){
             if(computerPick=="Paper"){ //paper
                 result = "lose";
                 document.getElementById("result").innerHTML="You picked "+playerPick+". The computer picked "+computerPick+", so you "+result+"!";
-                    }else if(computerPick=="Scissors"){ //scissors //BUT I COULD HAVE JUST USED "else" on the last option of al of these because the DRAW scenario is checked for earlier. 
+                    }else{ //scissors
                         result = "win";
                         document.getElementById("result").innerHTML="You picked "+playerPick+". The computer picked "+computerPick+", so you "+result+"!";
                 }
@@ -56,7 +56,7 @@ function runGame(){
             if(computerPick=="Rock"){ //rock
                 result = "win";
                 document.getElementById("result").innerHTML="You picked "+playerPick+". The computer picked "+computerPick+", so you "+result+"!";
-                    }else if(computerPick=="Scissors"){ //scissors
+                    }else{ //scissors
                         result = "lose";
                         document.getElementById("result").innerHTML="You picked "+playerPick+". The computer picked "+computerPick+", so you "+result+"!";
                 }
@@ -64,7 +64,7 @@ function runGame(){
             if(computerPick=="Rock"){ //rock
                     result = "lose";
                     document.getElementById("result").innerHTML="You picked "+playerPick+". The computer picked "+computerPick+", so you "+result+"!";
-                }else if(computerPick=="Paper"){ //paper
+                }else{ //paper
                     result = "win";
                     document.getElementById("result").innerHTML="You picked "+playerPick+". The computer picked "+computerPick+", so you "+result+"!";
                 }
