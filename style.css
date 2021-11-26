@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(241, 154, 73) !important;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1,h2,p{
+    text-align: center;
+    padding-top: 15px;
+}
+#optionImages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+img{
+    border: 5px solid rgb(111, 114, 111);
+}
+#gameResults{
+    text-align: left;
+}
+p{
+    font-size:xx-large
+}
