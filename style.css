@@ -22,8 +22,8 @@ img{
     border: 5px solid rgb(111, 114, 111);
 }
 #gameResults{
-    text-align: left;
+    text-align: justify;
 }
 p{
-    font-size:xx-large
+    font-size:x-large
 }
