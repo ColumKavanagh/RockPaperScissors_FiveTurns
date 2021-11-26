@@ -25,7 +25,6 @@ function maybeGame(){
                 document.getElementById("gameResults").innerHTML+="<br>Round "+(i+1)+": You picked "+playerPicks[i]+" and you "+gameResults[i];
             }
             document.getElementById("restartGame").innerHTML="</br><button onclick='restartGame()'>Click here to restart the game!</button>";
-            //document.getElementById("gameResults").scrollIntoView();
             turn=6;
             }
             return turn;
